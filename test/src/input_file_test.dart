@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use_from_same_package
+
 import 'package:flutter_test/flutter_test.dart';
 import 'package:appwrite/src/exception.dart';
 import 'package:appwrite/src/input_file.dart';
@@ -36,7 +38,8 @@ void main() {
     });
 
     test('creates InputFile from bytes', () {
-      final inputFile = InputFile.fromBytes(bytes: [1, 2, 3], filename: 'file.txt');
+      final inputFile =
+          InputFile.fromBytes(bytes: [1, 2, 3], filename: 'file.txt');
 
       expect(inputFile.path, isNull);
       expect(inputFile.filename, 'file.txt');

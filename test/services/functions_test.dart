@@ -2,8 +2,6 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 import 'package:appwrite/models.dart' as models;
 import 'package:appwrite/src/enums.dart';
-import 'package:appwrite/src/response.dart';
-import 'dart:typed_data';
 import 'package:appwrite/appwrite.dart';
 
 class MockClient extends Mock implements Client {

@@ -1,4 +1,3 @@
-import 'dart:async';
 import 'package:http/http.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
